@@ -1,0 +1,11 @@
+--- bluez-hcidump-1.5/configure.in.orig	Mon Nov 25 16:40:30 2002
++++ bluez-hcidump-1.5/configure.in	Wed Apr 16 10:11:39 2003
+@@ -11,8 +11,6 @@
+ 
+ AM_INIT_AUTOMAKE(bluez-hcidump, 1.5)
+ 
+-CFLAGS="-Wall -g -O2"
+-
+ AC_PREFIX_DEFAULT(/usr)
+ 
+ dnl Check for programs.
