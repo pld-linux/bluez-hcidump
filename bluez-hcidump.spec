@@ -6,6 +6,7 @@ Release:	1
 License:	GPL v2
 Group:		Networking/Utilities
 Source0:	http://bluez.sourceforge.net/download/%{name}-%{version}.tar.gz
+# Source0-md5:	346f86c8e1824a505e976d0a2c8a0578
 Patch0:		%{name}-opt.patch
 URL:		http://bluez.sourceforge.net/
 BuildRequires:	autoconf
