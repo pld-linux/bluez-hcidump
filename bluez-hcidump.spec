@@ -10,7 +10,8 @@ Source0:	http://bluez.sourceforge.net/download/%{name}-%{version}.tar.gz
 URL:		http://bluez.sourceforge.net/
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
-BuildRequires:	bluez-libs-devel >= 2.15
+BuildRequires:	bluez-libs-devel >= 2.20
+Requires:	bluez-libs >= 2.20
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
