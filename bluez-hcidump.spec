@@ -1,12 +1,12 @@
 Summary:	HCIDump - HCI packet analyzer
 Summary(pl):	HCIDump - analizator pakietów HCI
 Name:		bluez-hcidump
-Version:	1.29
+Version:	1.30
 Release:	1
 License:	GPL v2+
 Group:		Networking/Utilities
 Source0:	http://bluez.sourceforge.net/download/%{name}-%{version}.tar.gz
-# Source0-md5:	4e72efe8b67c3558eb776ad14e60de3e
+# Source0-md5:	46ac502055ccab1fd6f11cab7187e9c7
 URL:		http://bluez.sourceforge.net/
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
