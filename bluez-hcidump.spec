@@ -5,9 +5,10 @@ Version:	1.32
 Release:	1
 License:	GPL v2+
 Group:		Networking/Utilities
+#Source0Download: http://www.bluez.org/download.html
 Source0:	http://bluez.sourceforge.net/download/%{name}-%{version}.tar.gz
 # Source0-md5:	3320121113cf31fe9180470edff2c71d
-URL:		http://bluez.sourceforge.net/
+URL:		http://www.bluez.org/
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
 BuildRequires:	bluez-libs-devel >= 3.3
