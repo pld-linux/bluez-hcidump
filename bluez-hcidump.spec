@@ -1,5 +1,5 @@
 Summary:	HCIDump - HCI packet analyzer
-Summary(pl.UTF-8):   HCIDump - analizator pakietów HCI
+Summary(pl.UTF-8):	HCIDump - analizator pakietów HCI
 Name:		bluez-hcidump
 Version:	1.32
 Release:	1
