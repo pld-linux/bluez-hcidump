@@ -12,6 +12,7 @@ URL:		http://www.bluez.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
 BuildRequires:	bluez-libs-devel >= 3.14
+BuildRequires:	pkgconfig
 Requires:	bluez-libs >= 3.14
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
