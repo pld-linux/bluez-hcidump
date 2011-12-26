@@ -1,18 +1,20 @@
 Summary:	HCIDump - HCI packet analyzer
 Summary(pl.UTF-8):	HCIDump - analizator pakietów HCI
 Name:		bluez-hcidump
-Version:	2.1
+Version:	2.2
 Release:	1
 License:	GPL v2+
 Group:		Networking/Utilities
 #Source0Download: http://www.bluez.org/download.html
-Source0:	http://www.kernel.org/pub/linux/bluetooth/%{name}-%{version}.tar.bz2
-# Source0-md5:	1733121d708c5cd887c2938a9b4828a6
+Source0:	http://www.kernel.org/pub/linux/bluetooth/%{name}-%{version}.tar.xz
+# Source0-md5:	be2af1cdf91c906eaa846c264eb1395c
 URL:		http://www.bluez.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
 BuildRequires:	bluez-libs-devel >= 3.14
 BuildRequires:	pkgconfig
+BuildRequires:	tar >= 1:1.22
+BuildRequires:	xz
 Requires:	bluez-libs >= 3.14
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
